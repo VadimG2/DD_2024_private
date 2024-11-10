@@ -1,0 +1,4 @@
+
+=== Error correction and assembling warnings:
+ * 0:09:16.868    96M / 1410M WARN    General                 (launcher.cpp              : 178)   Your data seems to have high uniform coverage depth. It is strongly recommended to use --isolate option.
+======= Warnings saved to /mnt/d/Games/notOrca/git/datadriven/DD_2024_private/hw2/spades/warnings.log
