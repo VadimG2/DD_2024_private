@@ -1,4 +1,4 @@
-```markdown
+
 # README.md
 
 This Snakemake pipeline performs quality control, assembly, annotation, and antimicrobial resistance gene detection of bacterial genomes.  It supports two modes: processing raw reads or using pre-assembled genomes.
