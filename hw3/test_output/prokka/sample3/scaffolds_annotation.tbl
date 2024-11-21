@@ -1,0 +1,71 @@
+>Feature NODE_1_length_29988_cov_583.821975
+392	13609	CDS
+			EC_number	3.1.1.106
+			gene	ymdB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01205
+			locus_tag	MJHABPPO_00001
+			product	O-acetyl-ADP-ribose deacetylase
+13894	21681	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	MJHABPPO_00002
+			product	hypothetical protein
+21689	25510	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	MJHABPPO_00003
+			product	hypothetical protein
+25519	26346	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	MJHABPPO_00004
+			product	hypothetical protein
+26649	27317	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	MJHABPPO_00005
+			product	hypothetical protein
+27328	27513	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	MJHABPPO_00006
+			product	hypothetical protein
+27520	27885	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	MJHABPPO_00007
+			product	hypothetical protein
+28020	28385	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	MJHABPPO_00008
+			product	hypothetical protein
+28400	29659	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	MJHABPPO_00009
+			product	hypothetical protein
+>Feature NODE_2_length_876_cov_0.412550
+>Feature NODE_3_length_617_cov_0.459184
+>Feature NODE_4_length_467_cov_0.729412
+>Feature NODE_5_length_465_cov_0.727811
+>Feature NODE_6_length_462_cov_0.731343
+>Feature NODE_7_length_459_cov_0.689759
+>Feature NODE_8_length_455_cov_0.756098
+>Feature NODE_9_length_441_cov_0.710191
+>Feature NODE_10_length_440_cov_0.792332
+>Feature NODE_11_length_425_cov_0.825503
+>Feature NODE_12_length_425_cov_0.815436
+>Feature NODE_13_length_424_cov_0.750842
+>Feature NODE_14_length_423_cov_1.047297
+>Feature NODE_15_length_421_cov_0.840136
+>Feature NODE_16_length_417_cov_0.568966
+>Feature NODE_17_length_416_cov_0.847751
+>Feature NODE_18_length_415_cov_0.861111
+>Feature NODE_19_length_404_cov_0.895307
+>Feature NODE_20_length_403_cov_0.894928
+>Feature NODE_21_length_402_cov_0.898182
+71	283	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	MJHABPPO_00010
+			product	hypothetical protein
+>Feature NODE_22_length_401_cov_0.901460
+>Feature NODE_23_length_397_cov_0.759259
+>Feature NODE_24_length_396_cov_0.921933
+>Feature NODE_25_length_394_cov_0.925094
+>Feature NODE_26_length_379_cov_0.916667
+>Feature NODE_27_length_128_cov_93.000000
+>Feature NODE_28_length_128_cov_18.000000

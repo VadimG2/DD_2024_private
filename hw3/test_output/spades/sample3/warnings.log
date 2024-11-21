@@ -1,0 +1,10 @@
+
+=== Error correction and assembling warnings:
+ * 0:00:39.070     5M / 532M  WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 6
+ * 0:00:38.039     4M / 576M  WARN    General                 (kmer_coverage_model.cpp   : 219)   Too many erroneous kmers, the estimates might be unreliable
+ * 0:00:41.689     4M / 576M  WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 7
+ * 0:00:38.848     9M / 576M  WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 11
+ * 0:00:37.472     9M / 558M  WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 10
+ * 0:01:07.675    12M / 560M  WARN    General                 (pair_info_count.cpp       : 195)   Estimated mean insert size 196.694 is very small compared to read length 251
+ * 0:01:16.018    12M / 560M  WARN    General                 (launcher.cpp              : 180)   Your data seems to have high uniform coverage depth. It is strongly recommended to use --isolate option.
+======= Warnings saved to /mnt/d/Games/gitik/DD_2024_private/hw3/test_output/spades/sample3/warnings.log

@@ -1,0 +1,126 @@
+[17:12:38] This is prokka 1.14.6
+[17:12:38] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[17:12:38] Homepage is https://github.com/tseemann/prokka
+[17:12:38] Local time is Thu Nov 21 17:12:37 2024
+[17:12:38] You are vadja228
+[17:12:38] Operating system is linux
+[17:12:38] You have BioPerl 1.7.8
+[17:12:38] System has 4 cores.
+[17:12:38] Option --cpu asked for 8 cores, but system only has 4
+[17:12:38] Will use maximum of 4 cores.
+[17:12:38] Annotating as >>> Bacteria <<<
+[17:12:38] Generating locus_tag from '/mnt/d/Games/gitik/DD_2024_private/hw3/test_input/scaffolds.fasta' contents.
+[17:12:38] Setting --locustag DFJKPONM from MD5 df349876d185f9e7013a6d65437451c0
+[17:12:38] Re-using existing --outdir test_output/prokka/sample1
+[17:12:38] Using filename prefix: scaffolds_annotation.XXX
+[17:12:38] Setting HMMER_NCPU=1
+[17:12:38] Writing log to: test_output/prokka/sample1/scaffolds_annotation.log
+[17:12:38] Command: /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/bin/prokka --outdir test_output/prokka/sample1 --prefix scaffolds_annotation --force /mnt/d/Games/gitik/DD_2024_private/hw3/test_input/scaffolds.fasta
+[17:12:38] Appending to PATH: /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/bin
+[17:12:38] Looking for 'aragorn' - found /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/bin/aragorn
+[17:12:38] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[17:12:38] Looking for 'barrnap' - found /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/bin/barrnap
+[17:12:38] Determined barrnap version is 000009 from 'barrnap 0.9'
+[17:12:39] Looking for 'blastp' - found /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/bin/blastp
+[17:12:46] Determined blastp version is 002016 from 'blastp: 2.16.0+'
+[17:12:46] Looking for 'cmpress' - found /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/bin/cmpress
+[17:12:46] Determined cmpress version is 001001 from '# INFERNAL 1.1.5 (Sep 2023)'
+[17:12:46] Looking for 'cmscan' - found /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/bin/cmscan
+[17:12:46] Determined cmscan version is 001001 from '# INFERNAL 1.1.5 (Sep 2023)'
+[17:12:46] Looking for 'egrep' - found /usr/bin/egrep
+[17:12:46] Looking for 'find' - found /usr/bin/find
+[17:12:46] Looking for 'grep' - found /usr/bin/grep
+[17:12:46] Looking for 'hmmpress' - found /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/bin/hmmpress
+[17:12:46] Determined hmmpress version is 003004 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[17:12:46] Looking for 'hmmscan' - found /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/bin/hmmscan
+[17:12:46] Determined hmmscan version is 003004 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[17:12:46] Looking for 'java' - found /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/bin/java
+[17:12:46] Looking for 'makeblastdb' - found /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/bin/makeblastdb
+[17:12:53] Determined makeblastdb version is 002016 from 'makeblastdb: 2.16.0+'
+[17:12:53] Looking for 'minced' - found /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/bin/minced
+[17:12:56] Determined minced version is 004002 from 'minced 0.4.2'
+[17:12:56] Looking for 'parallel' - found /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/bin/parallel
+[17:12:58] Determined parallel version is 20240922 from 'GNU parallel 20240922'
+[17:12:58] Looking for 'prodigal' - found /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/bin/prodigal
+[17:12:58] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[17:12:58] Looking for 'prokka-genbank_to_fasta_db' - found /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/bin/prokka-genbank_to_fasta_db
+[17:12:58] Looking for 'sed' - found /usr/bin/sed
+[17:12:58] Looking for 'tbl2asn' - found /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/bin/tbl2asn
+[17:12:58] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[17:12:58] Using genetic code table 11.
+[17:12:58] Loading and checking input file: /mnt/d/Games/gitik/DD_2024_private/hw3/test_input/scaffolds.fasta
+[17:12:58] Wrote 82 contigs totalling 79501 bp.
+[17:12:58] Predicting tRNAs and tmRNAs
+[17:12:58] Running: aragorn -l -gc11  -w test_output\/prokka\/sample1\/scaffolds_annotation\.fna
+[17:12:59] Found 0 tRNAs
+[17:12:59] Predicting Ribosomal RNAs
+[17:12:59] Running Barrnap with 4 threads
+[17:13:00] Found 0 rRNAs
+[17:13:00] Skipping ncRNA search, enable with --rfam if desired.
+[17:13:00] Total of 0 tRNA + rRNA features
+[17:13:00] Searching for CRISPR repeats
+[17:13:02] Found 0 CRISPRs
+[17:13:02] Predicting coding sequences
+[17:13:02] Contigs total 79501 bp, so using meta mode
+[17:13:02] Running: prodigal -i test_output\/prokka\/sample1\/scaffolds_annotation\.fna -c -m -g 11 -p meta -f sco -q
+[17:13:04] Found 41 CDS
+[17:13:04] Connecting features back to sequences
+[17:13:04] Not using genus-specific database. Try --usegenus to enable it.
+[17:13:04] Annotating CDS, please be patient.
+[17:13:04] Will use 4 CPUs for similarity searching.
+[17:13:04] There are still 41 unannotated CDS left (started with 41)
+[17:13:04] Will use blast to search against /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/db/kingdom/Bacteria/IS with 4 CPUs
+[17:13:04] Running: cat test_output\/prokka\/sample1\/scaffolds_annotation\.IS\.tmp\.2101\.faa | parallel --gnu --plain -j 4 --block 1479 --recstart '>' --pipe blastp -query - -db /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > test_output\/prokka\/sample1\/scaffolds_annotation\.IS\.tmp\.2101\.blast 2> /dev/null
+[17:13:13] Deleting unwanted file: test_output/prokka/sample1/scaffolds_annotation.IS.tmp.2101.faa
+[17:13:13] Deleting unwanted file: test_output/prokka/sample1/scaffolds_annotation.IS.tmp.2101.blast
+[17:13:13] There are still 41 unannotated CDS left (started with 41)
+[17:13:13] Will use blast to search against /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/db/kingdom/Bacteria/AMR with 4 CPUs
+[17:13:13] Running: cat test_output\/prokka\/sample1\/scaffolds_annotation\.AMR\.tmp\.2101\.faa | parallel --gnu --plain -j 4 --block 1479 --recstart '>' --pipe blastp -query - -db /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/db/kingdom/Bacteria/AMR -evalue 1e-300 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > test_output\/prokka\/sample1\/scaffolds_annotation\.AMR\.tmp\.2101\.blast 2> /dev/null
+[17:13:22] Deleting unwanted file: test_output/prokka/sample1/scaffolds_annotation.AMR.tmp.2101.faa
+[17:13:22] Deleting unwanted file: test_output/prokka/sample1/scaffolds_annotation.AMR.tmp.2101.blast
+[17:13:22] There are still 41 unannotated CDS left (started with 41)
+[17:13:22] Will use blast to search against /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/db/kingdom/Bacteria/sprot with 4 CPUs
+[17:13:22] Running: cat test_output\/prokka\/sample1\/scaffolds_annotation\.sprot\.tmp\.2101\.faa | parallel --gnu --plain -j 4 --block 1479 --recstart '>' --pipe blastp -query - -db /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > test_output\/prokka\/sample1\/scaffolds_annotation\.sprot\.tmp\.2101\.blast 2> /dev/null
+[17:13:32] Deleting unwanted file: test_output/prokka/sample1/scaffolds_annotation.sprot.tmp.2101.faa
+[17:13:32] Deleting unwanted file: test_output/prokka/sample1/scaffolds_annotation.sprot.tmp.2101.blast
+[17:13:32] There are still 41 unannotated CDS left (started with 41)
+[17:13:32] Will use hmmer3 to search against /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/db/hmm/HAMAP.hmm with 4 CPUs
+[17:13:32] Running: cat test_output\/prokka\/sample1\/scaffolds_annotation\.HAMAP\.hmm\.tmp\.2101\.faa | parallel --gnu --plain -j 4 --block 1479 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /mnt/d/Games/gitik/DD_2024_private/hw3/.snakemake/conda/f27a4b0ae1c8f9073923830e7f7fc0b1_/db/hmm/HAMAP.hmm /dev/stdin > test_output\/prokka\/sample1\/scaffolds_annotation\.HAMAP\.hmm\.tmp\.2101\.hmmer3 2> /dev/null
+[17:14:43] Deleting unwanted file: test_output/prokka/sample1/scaffolds_annotation.HAMAP.hmm.tmp.2101.faa
+[17:14:43] Deleting unwanted file: test_output/prokka/sample1/scaffolds_annotation.HAMAP.hmm.tmp.2101.hmmer3
+[17:14:43] Labelling remaining 41 proteins as 'hypothetical protein'
+[17:14:43] Found 0 unique /gene codes.
+[17:14:43] Fixed 0 colliding /gene names.
+[17:14:43] Adding /locus_tag identifiers
+[17:14:43] Assigned 41 locus_tags to CDS and RNA features.
+[17:14:43] Writing outputs to test_output/prokka/sample1/
+[17:14:43] Generating annotation statistics file
+[17:14:43] Generating Genbank and Sequin files
+[17:14:43] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z test_output\/prokka\/sample1\/scaffolds_annotation\.err -i test_output\/prokka\/sample1\/scaffolds_annotation\.fsa 2> /dev/null
+[17:14:46] Deleting unwanted file: test_output/prokka/sample1/errorsummary.val
+[17:14:46] Deleting unwanted file: test_output/prokka/sample1/scaffolds_annotation.dr
+[17:14:46] Deleting unwanted file: test_output/prokka/sample1/scaffolds_annotation.fixedproducts
+[17:14:46] Deleting unwanted file: test_output/prokka/sample1/scaffolds_annotation.ecn
+[17:14:46] Deleting unwanted file: test_output/prokka/sample1/scaffolds_annotation.val
+[17:14:46] Repairing broken .GBK output that tbl2asn produces...
+[17:14:46] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < test_output\/prokka\/sample1\/scaffolds_annotation\.gbf > test_output\/prokka\/sample1\/scaffolds_annotation\.gbk
+[17:14:46] Deleting unwanted file: test_output/prokka/sample1/scaffolds_annotation.gbf
+[17:14:46] Output files:
+[17:14:46] test_output/prokka/sample1/scaffolds_annotation.err
+[17:14:46] test_output/prokka/sample1/scaffolds_annotation.faa
+[17:14:46] test_output/prokka/sample1/scaffolds_annotation.ffn
+[17:14:46] test_output/prokka/sample1/scaffolds_annotation.fna
+[17:14:46] test_output/prokka/sample1/scaffolds_annotation.fsa
+[17:14:46] test_output/prokka/sample1/scaffolds_annotation.gbk
+[17:14:46] test_output/prokka/sample1/scaffolds_annotation.gff
+[17:14:46] test_output/prokka/sample1/scaffolds_annotation.log
+[17:14:46] test_output/prokka/sample1/scaffolds_annotation.sqn
+[17:14:46] test_output/prokka/sample1/scaffolds_annotation.tbl
+[17:14:46] test_output/prokka/sample1/scaffolds_annotation.tsv
+[17:14:46] test_output/prokka/sample1/scaffolds_annotation.txt
+[17:14:46] Annotation finished successfully.
+[17:14:46] Walltime used: 2.15 minutes
+[17:14:46] If you use this result please cite the Prokka paper:
+[17:14:46] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[17:14:46] Type 'prokka --citation' for more details.
+[17:14:46] Share and enjoy!

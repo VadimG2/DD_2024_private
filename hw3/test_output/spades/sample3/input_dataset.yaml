@@ -1,0 +1,7 @@
+- "left reads":
+  - "/mnt/d/Games/gitik/DD_2024_private/hw3/test_input/SRR31122809_1.fastq.gz"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/mnt/d/Games/gitik/DD_2024_private/hw3/test_input/SRR31122809_2.fastq.gz"
+  "type": "paired-end"

@@ -1,0 +1,15 @@
+{
+  "global_params": {
+    "outdir": "test_output",
+    "threads": 2
+  },
+  "spades": {
+    "threads": 2,
+    "memory": 4
+  },
+  "quast": {},
+  "prokka": {},
+  "abricate": {
+    "database": "ResFinder"
+  }
+}
