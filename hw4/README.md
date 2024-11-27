@@ -102,12 +102,12 @@ cd DD_2024_private/hw4
 Пример:
 ```csv
 sample_id,read_1,read_2,assembly
-sample1,reads1_1.fastq,reads1_2.fastq,
-sample2,reads2_1.fastq,reads2_2.fastq,
-sample3,reads3_1.fastq,reads3_2.fastq,assembly_sample3.fasta
+sample1,reads1_1.fastq.gz,reads1_2.fastq.gz,
+sample2,reads2_1.fastq.gz,reads2_2.fastq.gz,
+sample3,reads3_1.fastq.gz,reads3_2.fastq.gz,assembly_sample3.fasta
 ```
 
-- FASTQ файлы (`reads1_1.fastq`, `reads1_2.fastq`, и т.д.) и опциональные сборки (`assembly_sample3.fasta`) должны находиться в папке `test_input`.
+- FASTQ файлы (`reads1_1.fastq.gz`, `reads1_2.fastq.gz`, и т.д.) и опциональные сборки (`assembly_sample3.fasta`) должны находиться в папке `test_input`.
 
 ---
 
