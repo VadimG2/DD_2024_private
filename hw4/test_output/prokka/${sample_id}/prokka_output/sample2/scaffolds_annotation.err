@@ -1,0 +1,295 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:15 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 15 present
+DISC_COUNT_NUCLEOTIDES:17 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:15 features have inconsistent gene locations.
+SHORT_CONTIG:1 contigs are shorter than 200 nt.
+ZERO_BASECOUNT:3 sequences have a zero basecount for a nucleotide
+NO_ANNOTATION:10 bioseqs have no features
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:17 comment descriptors were found (all same)
+MISSING_GENOMEASSEMBLY_COMMENTS:17 bioseqs are missing GenomeAssembly structured comments
+SHORT_SEQUENCES_200:1 sequences are shorter than 200 bp.
+MOLTYPE_NOT_MRNA:17 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:17 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:17 sequences do not include structured comments.
+MISSING_PROJECT:32 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+SEQ_ID_PHRASES:Sequence Ids contain unacceptable phrases (cov_, length, node, paired, or trimmed)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::15 proteins have invalid IDs.
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513_1 (length 97)
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513_2 (length 121)
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513_3 (length 121)
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513_4 (length 61)
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513_5 (length 222)
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513_6 (length 271)
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513_7 (length 1282)
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513_8 (length 2595)
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513_9 (length 4295)
+prokka_output/sample2/scaffolds_annotation:NODE_2_length_1197_cov_680.131776_1 (length 281)
+prokka_output/sample2/scaffolds_annotation:NODE_4_length_741_cov_1.428339_1 (length 82)
+prokka_output/sample2/scaffolds_annotation:NODE_6_length_450_cov_0.761610_1 (length 50)
+prokka_output/sample2/scaffolds_annotation:NODE_10_length_421_cov_0.840136_1 (length 117)
+prokka_output/sample2/scaffolds_annotation:NODE_14_length_387_cov_0.680769_1 (length 109)
+prokka_output/sample2/scaffolds_annotation:NODE_15_length_381_cov_0.972441_1 (length 89)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::17 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::17 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 15 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::17 nucleotide Bioseqs are present
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513 (length 28270)
+prokka_output/sample2/scaffolds_annotation:NODE_2_length_1197_cov_680.131776 (length 1197)
+prokka_output/sample2/scaffolds_annotation:NODE_3_length_749_cov_228.581994 (length 749)
+prokka_output/sample2/scaffolds_annotation:NODE_4_length_741_cov_1.428339 (length 741)
+prokka_output/sample2/scaffolds_annotation:NODE_5_length_453_cov_0.708589 (length 453)
+prokka_output/sample2/scaffolds_annotation:NODE_6_length_450_cov_0.761610 (length 450)
+prokka_output/sample2/scaffolds_annotation:NODE_7_length_438_cov_0.797428 (length 438)
+prokka_output/sample2/scaffolds_annotation:NODE_8_length_427_cov_0.826667 (length 427)
+prokka_output/sample2/scaffolds_annotation:NODE_9_length_425_cov_0.832215 (length 425)
+prokka_output/sample2/scaffolds_annotation:NODE_10_length_421_cov_0.840136 (length 421)
+prokka_output/sample2/scaffolds_annotation:NODE_11_length_413_cov_0.646853 (length 413)
+prokka_output/sample2/scaffolds_annotation:NODE_12_length_406_cov_0.888889 (length 406)
+prokka_output/sample2/scaffolds_annotation:NODE_13_length_393_cov_0.639098 (length 393)
+prokka_output/sample2/scaffolds_annotation:NODE_14_length_387_cov_0.680769 (length 387)
+prokka_output/sample2/scaffolds_annotation:NODE_15_length_381_cov_0.972441 (length 381)
+prokka_output/sample2/scaffolds_annotation:NODE_16_length_267_cov_1494.457143 (length 267)
+prokka_output/sample2/scaffolds_annotation:NODE_17_length_128_cov_123.000000 (length 128)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::15 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/sample2/scaffolds_annotation:CDS	hypothetical protein	NODE_1_length_28270_cov_704.871513:c509-216	MPNENMJJ_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/sample2/scaffolds_annotation:CDS	hypothetical protein	NODE_1_length_28270_cov_704.871513:c899-534	MPNENMJJ_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/sample2/scaffolds_annotation:CDS	hypothetical protein	NODE_1_length_28270_cov_704.871513:c1399-1034	MPNENMJJ_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/sample2/scaffolds_annotation:CDS	hypothetical protein	NODE_1_length_28270_cov_704.871513:c1591-1406	MPNENMJJ_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/sample2/scaffolds_annotation:CDS	hypothetical protein	NODE_1_length_28270_cov_704.871513:c2270-1602	MPNENMJJ_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/sample2/scaffolds_annotation:CDS	hypothetical protein	NODE_1_length_28270_cov_704.871513:c3388-2573	MPNENMJJ_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/sample2/scaffolds_annotation:CDS	hypothetical protein	NODE_1_length_28270_cov_704.871513:c7257-3409	MPNENMJJ_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/sample2/scaffolds_annotation:CDS	hypothetical protein	NODE_1_length_28270_cov_704.871513:c15025-7238	MPNENMJJ_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/sample2/scaffolds_annotation:CDS	O-acetyl-ADP-ribose deacetylase	NODE_1_length_28270_cov_704.871513:c28197-15310	MPNENMJJ_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/sample2/scaffolds_annotation:CDS	hypothetical protein	NODE_2_length_1197_cov_680.131776:c1175-330	MPNENMJJ_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/sample2/scaffolds_annotation:CDS	hypothetical protein	NODE_4_length_741_cov_1.428339:c484-236	MPNENMJJ_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/sample2/scaffolds_annotation:CDS	hypothetical protein	NODE_6_length_450_cov_0.761610:231-383	MPNENMJJ_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/sample2/scaffolds_annotation:CDS	hypothetical protein	NODE_10_length_421_cov_0.840136:15-368	MPNENMJJ_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/sample2/scaffolds_annotation:CDS	hypothetical protein	NODE_14_length_387_cov_0.680769:4-333	MPNENMJJ_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_output/sample2/scaffolds_annotation:CDS	hypothetical protein	NODE_15_length_381_cov_0.972441:96-365	MPNENMJJ_00015
+
+DiscRep_ALL:SHORT_CONTIG::1 contigs are shorter than 200 nt.
+prokka_output/sample2/scaffolds_annotation:NODE_17_length_128_cov_123.000000 (length 128)
+
+DiscRep_ALL:ZERO_BASECOUNT::3 sequences have a zero basecount for a nucleotide
+DiscRep_SUB:ZERO_BASECOUNT::1 sequences have no As
+prokka_output/sample2/scaffolds_annotation:NODE_17_length_128_cov_123.000000 (length 128)
+
+DiscRep_SUB:ZERO_BASECOUNT::1 sequences have no Ts
+prokka_output/sample2/scaffolds_annotation:NODE_17_length_128_cov_123.000000 (length 128)
+
+DiscRep_SUB:ZERO_BASECOUNT::1 sequences have no Cs
+prokka_output/sample2/scaffolds_annotation:NODE_17_length_128_cov_123.000000 (length 128)
+
+DiscRep_ALL:NO_ANNOTATION::10 bioseqs have no features
+prokka_output/sample2/scaffolds_annotation:NODE_3_length_749_cov_228.581994 (length 749)
+prokka_output/sample2/scaffolds_annotation:NODE_5_length_453_cov_0.708589 (length 453)
+prokka_output/sample2/scaffolds_annotation:NODE_7_length_438_cov_0.797428 (length 438)
+prokka_output/sample2/scaffolds_annotation:NODE_8_length_427_cov_0.826667 (length 427)
+prokka_output/sample2/scaffolds_annotation:NODE_9_length_425_cov_0.832215 (length 425)
+prokka_output/sample2/scaffolds_annotation:NODE_11_length_413_cov_0.646853 (length 413)
+prokka_output/sample2/scaffolds_annotation:NODE_12_length_406_cov_0.888889 (length 406)
+prokka_output/sample2/scaffolds_annotation:NODE_13_length_393_cov_0.639098 (length 393)
+prokka_output/sample2/scaffolds_annotation:NODE_16_length_267_cov_1494.457143 (length 267)
+prokka_output/sample2/scaffolds_annotation:NODE_17_length_128_cov_123.000000 (length 128)
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::17 comment descriptors were found (all same)
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+prokka_output/sample2/scaffolds_annotation:NODE_2_length_1197_cov_680.131776:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+prokka_output/sample2/scaffolds_annotation:NODE_3_length_749_cov_228.581994:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+prokka_output/sample2/scaffolds_annotation:NODE_4_length_741_cov_1.428339:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+prokka_output/sample2/scaffolds_annotation:NODE_5_length_453_cov_0.708589:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+prokka_output/sample2/scaffolds_annotation:NODE_6_length_450_cov_0.761610:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+prokka_output/sample2/scaffolds_annotation:NODE_7_length_438_cov_0.797428:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+prokka_output/sample2/scaffolds_annotation:NODE_8_length_427_cov_0.826667:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+prokka_output/sample2/scaffolds_annotation:NODE_9_length_425_cov_0.832215:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+prokka_output/sample2/scaffolds_annotation:NODE_10_length_421_cov_0.840136:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+prokka_output/sample2/scaffolds_annotation:NODE_11_length_413_cov_0.646853:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+prokka_output/sample2/scaffolds_annotation:NODE_12_length_406_cov_0.888889:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+prokka_output/sample2/scaffolds_annotation:NODE_13_length_393_cov_0.639098:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+prokka_output/sample2/scaffolds_annotation:NODE_14_length_387_cov_0.680769:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+prokka_output/sample2/scaffolds_annotation:NODE_15_length_381_cov_0.972441:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+prokka_output/sample2/scaffolds_annotation:NODE_16_length_267_cov_1494.457143:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+prokka_output/sample2/scaffolds_annotation:NODE_17_length_128_cov_123.000000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::17 bioseqs are missing GenomeAssembly structured comments
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513 (length 28270)
+prokka_output/sample2/scaffolds_annotation:NODE_2_length_1197_cov_680.131776 (length 1197)
+prokka_output/sample2/scaffolds_annotation:NODE_3_length_749_cov_228.581994 (length 749)
+prokka_output/sample2/scaffolds_annotation:NODE_4_length_741_cov_1.428339 (length 741)
+prokka_output/sample2/scaffolds_annotation:NODE_5_length_453_cov_0.708589 (length 453)
+prokka_output/sample2/scaffolds_annotation:NODE_6_length_450_cov_0.761610 (length 450)
+prokka_output/sample2/scaffolds_annotation:NODE_7_length_438_cov_0.797428 (length 438)
+prokka_output/sample2/scaffolds_annotation:NODE_8_length_427_cov_0.826667 (length 427)
+prokka_output/sample2/scaffolds_annotation:NODE_9_length_425_cov_0.832215 (length 425)
+prokka_output/sample2/scaffolds_annotation:NODE_10_length_421_cov_0.840136 (length 421)
+prokka_output/sample2/scaffolds_annotation:NODE_11_length_413_cov_0.646853 (length 413)
+prokka_output/sample2/scaffolds_annotation:NODE_12_length_406_cov_0.888889 (length 406)
+prokka_output/sample2/scaffolds_annotation:NODE_13_length_393_cov_0.639098 (length 393)
+prokka_output/sample2/scaffolds_annotation:NODE_14_length_387_cov_0.680769 (length 387)
+prokka_output/sample2/scaffolds_annotation:NODE_15_length_381_cov_0.972441 (length 381)
+prokka_output/sample2/scaffolds_annotation:NODE_16_length_267_cov_1494.457143 (length 267)
+prokka_output/sample2/scaffolds_annotation:NODE_17_length_128_cov_123.000000 (length 128)
+
+DiscRep_ALL:SHORT_SEQUENCES_200::1 sequences are shorter than 200 bp.
+prokka_output/sample2/scaffolds_annotation:NODE_17_length_128_cov_123.000000 (length 128)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::17 molecule types are not set as mRNA.
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513 (length 28270)
+prokka_output/sample2/scaffolds_annotation:NODE_2_length_1197_cov_680.131776 (length 1197)
+prokka_output/sample2/scaffolds_annotation:NODE_3_length_749_cov_228.581994 (length 749)
+prokka_output/sample2/scaffolds_annotation:NODE_4_length_741_cov_1.428339 (length 741)
+prokka_output/sample2/scaffolds_annotation:NODE_5_length_453_cov_0.708589 (length 453)
+prokka_output/sample2/scaffolds_annotation:NODE_6_length_450_cov_0.761610 (length 450)
+prokka_output/sample2/scaffolds_annotation:NODE_7_length_438_cov_0.797428 (length 438)
+prokka_output/sample2/scaffolds_annotation:NODE_8_length_427_cov_0.826667 (length 427)
+prokka_output/sample2/scaffolds_annotation:NODE_9_length_425_cov_0.832215 (length 425)
+prokka_output/sample2/scaffolds_annotation:NODE_10_length_421_cov_0.840136 (length 421)
+prokka_output/sample2/scaffolds_annotation:NODE_11_length_413_cov_0.646853 (length 413)
+prokka_output/sample2/scaffolds_annotation:NODE_12_length_406_cov_0.888889 (length 406)
+prokka_output/sample2/scaffolds_annotation:NODE_13_length_393_cov_0.639098 (length 393)
+prokka_output/sample2/scaffolds_annotation:NODE_14_length_387_cov_0.680769 (length 387)
+prokka_output/sample2/scaffolds_annotation:NODE_15_length_381_cov_0.972441 (length 381)
+prokka_output/sample2/scaffolds_annotation:NODE_16_length_267_cov_1494.457143 (length 267)
+prokka_output/sample2/scaffolds_annotation:NODE_17_length_128_cov_123.000000 (length 128)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::17 technique are not set as TSA
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513 (length 28270)
+prokka_output/sample2/scaffolds_annotation:NODE_2_length_1197_cov_680.131776 (length 1197)
+prokka_output/sample2/scaffolds_annotation:NODE_3_length_749_cov_228.581994 (length 749)
+prokka_output/sample2/scaffolds_annotation:NODE_4_length_741_cov_1.428339 (length 741)
+prokka_output/sample2/scaffolds_annotation:NODE_5_length_453_cov_0.708589 (length 453)
+prokka_output/sample2/scaffolds_annotation:NODE_6_length_450_cov_0.761610 (length 450)
+prokka_output/sample2/scaffolds_annotation:NODE_7_length_438_cov_0.797428 (length 438)
+prokka_output/sample2/scaffolds_annotation:NODE_8_length_427_cov_0.826667 (length 427)
+prokka_output/sample2/scaffolds_annotation:NODE_9_length_425_cov_0.832215 (length 425)
+prokka_output/sample2/scaffolds_annotation:NODE_10_length_421_cov_0.840136 (length 421)
+prokka_output/sample2/scaffolds_annotation:NODE_11_length_413_cov_0.646853 (length 413)
+prokka_output/sample2/scaffolds_annotation:NODE_12_length_406_cov_0.888889 (length 406)
+prokka_output/sample2/scaffolds_annotation:NODE_13_length_393_cov_0.639098 (length 393)
+prokka_output/sample2/scaffolds_annotation:NODE_14_length_387_cov_0.680769 (length 387)
+prokka_output/sample2/scaffolds_annotation:NODE_15_length_381_cov_0.972441 (length 381)
+prokka_output/sample2/scaffolds_annotation:NODE_16_length_267_cov_1494.457143 (length 267)
+prokka_output/sample2/scaffolds_annotation:NODE_17_length_128_cov_123.000000 (length 128)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::17 sequences do not include structured comments.
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513 (length 28270)
+prokka_output/sample2/scaffolds_annotation:NODE_2_length_1197_cov_680.131776 (length 1197)
+prokka_output/sample2/scaffolds_annotation:NODE_3_length_749_cov_228.581994 (length 749)
+prokka_output/sample2/scaffolds_annotation:NODE_4_length_741_cov_1.428339 (length 741)
+prokka_output/sample2/scaffolds_annotation:NODE_5_length_453_cov_0.708589 (length 453)
+prokka_output/sample2/scaffolds_annotation:NODE_6_length_450_cov_0.761610 (length 450)
+prokka_output/sample2/scaffolds_annotation:NODE_7_length_438_cov_0.797428 (length 438)
+prokka_output/sample2/scaffolds_annotation:NODE_8_length_427_cov_0.826667 (length 427)
+prokka_output/sample2/scaffolds_annotation:NODE_9_length_425_cov_0.832215 (length 425)
+prokka_output/sample2/scaffolds_annotation:NODE_10_length_421_cov_0.840136 (length 421)
+prokka_output/sample2/scaffolds_annotation:NODE_11_length_413_cov_0.646853 (length 413)
+prokka_output/sample2/scaffolds_annotation:NODE_12_length_406_cov_0.888889 (length 406)
+prokka_output/sample2/scaffolds_annotation:NODE_13_length_393_cov_0.639098 (length 393)
+prokka_output/sample2/scaffolds_annotation:NODE_14_length_387_cov_0.680769 (length 387)
+prokka_output/sample2/scaffolds_annotation:NODE_15_length_381_cov_0.972441 (length 381)
+prokka_output/sample2/scaffolds_annotation:NODE_16_length_267_cov_1494.457143 (length 267)
+prokka_output/sample2/scaffolds_annotation:NODE_17_length_128_cov_123.000000 (length 128)
+
+DiscRep_ALL:MISSING_PROJECT::32 sequences do not include project.
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513 (length 28270)
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513_1 (length 97)
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513_2 (length 121)
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513_3 (length 121)
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513_4 (length 61)
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513_5 (length 222)
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513_6 (length 271)
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513_7 (length 1282)
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513_8 (length 2595)
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513_9 (length 4295)
+prokka_output/sample2/scaffolds_annotation:NODE_2_length_1197_cov_680.131776 (length 1197)
+prokka_output/sample2/scaffolds_annotation:NODE_2_length_1197_cov_680.131776_1 (length 281)
+prokka_output/sample2/scaffolds_annotation:NODE_3_length_749_cov_228.581994 (length 749)
+prokka_output/sample2/scaffolds_annotation:NODE_4_length_741_cov_1.428339 (length 741)
+prokka_output/sample2/scaffolds_annotation:NODE_4_length_741_cov_1.428339_1 (length 82)
+prokka_output/sample2/scaffolds_annotation:NODE_5_length_453_cov_0.708589 (length 453)
+prokka_output/sample2/scaffolds_annotation:NODE_6_length_450_cov_0.761610 (length 450)
+prokka_output/sample2/scaffolds_annotation:NODE_6_length_450_cov_0.761610_1 (length 50)
+prokka_output/sample2/scaffolds_annotation:NODE_7_length_438_cov_0.797428 (length 438)
+prokka_output/sample2/scaffolds_annotation:NODE_8_length_427_cov_0.826667 (length 427)
+prokka_output/sample2/scaffolds_annotation:NODE_9_length_425_cov_0.832215 (length 425)
+prokka_output/sample2/scaffolds_annotation:NODE_10_length_421_cov_0.840136 (length 421)
+prokka_output/sample2/scaffolds_annotation:NODE_10_length_421_cov_0.840136_1 (length 117)
+prokka_output/sample2/scaffolds_annotation:NODE_11_length_413_cov_0.646853 (length 413)
+prokka_output/sample2/scaffolds_annotation:NODE_12_length_406_cov_0.888889 (length 406)
+prokka_output/sample2/scaffolds_annotation:NODE_13_length_393_cov_0.639098 (length 393)
+prokka_output/sample2/scaffolds_annotation:NODE_14_length_387_cov_0.680769 (length 387)
+prokka_output/sample2/scaffolds_annotation:NODE_14_length_387_cov_0.680769_1 (length 109)
+prokka_output/sample2/scaffolds_annotation:NODE_15_length_381_cov_0.972441 (length 381)
+prokka_output/sample2/scaffolds_annotation:NODE_15_length_381_cov_0.972441_1 (length 89)
+prokka_output/sample2/scaffolds_annotation:NODE_16_length_267_cov_1494.457143 (length 267)
+prokka_output/sample2/scaffolds_annotation:NODE_17_length_128_cov_123.000000 (length 128)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::17 Molinfos are missing field technique
+prokka_output/sample2/scaffolds_annotation:NODE_1_length_28270_cov_704.871513 (length 28270)
+prokka_output/sample2/scaffolds_annotation:NODE_2_length_1197_cov_680.131776 (length 1197)
+prokka_output/sample2/scaffolds_annotation:NODE_3_length_749_cov_228.581994 (length 749)
+prokka_output/sample2/scaffolds_annotation:NODE_4_length_741_cov_1.428339 (length 741)
+prokka_output/sample2/scaffolds_annotation:NODE_5_length_453_cov_0.708589 (length 453)
+prokka_output/sample2/scaffolds_annotation:NODE_6_length_450_cov_0.761610 (length 450)
+prokka_output/sample2/scaffolds_annotation:NODE_7_length_438_cov_0.797428 (length 438)
+prokka_output/sample2/scaffolds_annotation:NODE_8_length_427_cov_0.826667 (length 427)
+prokka_output/sample2/scaffolds_annotation:NODE_9_length_425_cov_0.832215 (length 425)
+prokka_output/sample2/scaffolds_annotation:NODE_10_length_421_cov_0.840136 (length 421)
+prokka_output/sample2/scaffolds_annotation:NODE_11_length_413_cov_0.646853 (length 413)
+prokka_output/sample2/scaffolds_annotation:NODE_12_length_406_cov_0.888889 (length 406)
+prokka_output/sample2/scaffolds_annotation:NODE_13_length_393_cov_0.639098 (length 393)
+prokka_output/sample2/scaffolds_annotation:NODE_14_length_387_cov_0.680769 (length 387)
+prokka_output/sample2/scaffolds_annotation:NODE_15_length_381_cov_0.972441 (length 381)
+prokka_output/sample2/scaffolds_annotation:NODE_16_length_267_cov_1494.457143 (length 267)
+prokka_output/sample2/scaffolds_annotation:NODE_17_length_128_cov_123.000000 (length 128)
+
+DiscRep_ALL:SEQ_ID_PHRASES::Sequence Ids contain unacceptable phrases (cov_, length, node, paired, or trimmed)
+
