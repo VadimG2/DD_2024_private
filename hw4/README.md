@@ -84,7 +84,7 @@ sudo apt install git -y
 Клонируйте этот репозиторий:
 ```bash
 git clone git@github.com:VadimG2/DD_2024_private.git
-cd DD_2024_private
+cd DD_2024_private/hw4
 ```
 
 ---
@@ -113,7 +113,7 @@ sample3,reads3_1.fastq,reads3_2.fastq,assembly_sample3.fasta
 
 ## Запуск пайплайна
 
-1. Проверьте, что вы находитесь в корневой директории проекта (`DD_2024_private`).
+1. Проверьте, что вы находитесь в корневой директории проекта (`DD_2024_private/hw4`).
 2. Запустите пайплайн:
    ```bash
    nextflow run main.nf --with-docker
