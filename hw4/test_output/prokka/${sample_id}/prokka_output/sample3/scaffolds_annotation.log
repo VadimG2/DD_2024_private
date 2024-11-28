@@ -1,129 +1,129 @@
-[22:20:04] This is prokka 1.14.6
-[22:20:04] Written by Torsten Seemann <torsten.seemann@gmail.com>
-[22:20:04] Homepage is https://github.com/tseemann/prokka
-[22:20:04] Local time is Wed Nov 27 22:20:04 2024
-[22:20:04] You are not telling me who you are!
-[22:20:04] Operating system is linux
-[22:20:04] You have BioPerl 1.007002
-[22:20:04] System has 4 cores.
-[22:20:04] Option --cpu asked for 8 cores, but system only has 4
-[22:20:04] Will use maximum of 4 cores.
-[22:20:04] Annotating as >>> Bacteria <<<
-[22:20:04] Generating locus_tag from 'scaffolds.fasta' contents.
-[22:20:04] Setting --locustag MJHABPPO from MD5 631ab998fb9db0a2e8b63db15e78faa7
-[22:20:04] Creating new output folder: prokka_output/sample3
-[22:20:04] Running: mkdir -p prokka_output\/sample3
-[22:20:04] Using filename prefix: scaffolds_annotation.XXX
-[22:20:04] Setting HMMER_NCPU=1
-[22:20:04] Writing log to: prokka_output/sample3/scaffolds_annotation.log
-[22:20:04] Command: /prokka-1.14.6/bin/prokka --outdir prokka_output/sample3 --prefix scaffolds_annotation --force scaffolds.fasta
-[22:20:04] Appending to PATH: /prokka-1.14.6/bin/../binaries/linux
-[22:20:04] Appending to PATH: /prokka-1.14.6/bin/../binaries/linux/../common
-[22:20:04] Appending to PATH: /prokka-1.14.6/bin
-[22:20:04] Looking for 'aragorn' - found /prokka-1.14.6/binaries/linux/aragorn
-[22:20:04] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
-[22:20:04] Looking for 'barrnap' - found /barrnap-0.9/bin/barrnap
-[22:20:04] Determined barrnap version is 000009 from 'barrnap 0.9'
-[22:20:04] Looking for 'blastp' - found /ncbi-blast-2.9.0+/bin/blastp
-[22:20:04] Determined blastp version is 002009 from 'blastp: 2.9.0+'
-[22:20:04] Looking for 'cmpress' - found /prokka-1.14.6/binaries/linux/cmpress
-[22:20:04] Determined cmpress version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
-[22:20:04] Looking for 'cmscan' - found /prokka-1.14.6/binaries/linux/cmscan
-[22:20:04] Determined cmscan version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
-[22:20:04] Looking for 'egrep' - found /bin/egrep
-[22:20:04] Looking for 'find' - found /usr/bin/find
-[22:20:04] Looking for 'grep' - found /bin/grep
-[22:20:04] Looking for 'hmmpress' - found /usr/bin/hmmpress
-[22:20:04] Determined hmmpress version is 003001 from '# HMMER 3.1b2 (February 2015); http://hmmer.org/'
-[22:20:04] Looking for 'hmmscan' - found /usr/bin/hmmscan
-[22:20:04] Determined hmmscan version is 003001 from '# HMMER 3.1b2 (February 2015); http://hmmer.org/'
-[22:20:04] Looking for 'java' - found /usr/bin/java
-[22:20:04] Looking for 'makeblastdb' - found /ncbi-blast-2.9.0+/bin/makeblastdb
-[22:20:04] Determined makeblastdb version is 002009 from 'makeblastdb: 2.9.0+'
-[22:20:04] Looking for 'minced' - found /prokka-1.14.6/binaries/common/minced
-[22:20:05] Determined minced version is 002000 from 'minced 0.2.0'
-[22:20:05] Looking for 'parallel' - found /prokka-1.14.6/binaries/common/parallel
-[22:20:05] Determined parallel version is 20150122 from 'GNU parallel 20150122'
-[22:20:05] Looking for 'prodigal' - found /prokka-1.14.6/binaries/linux/prodigal
-[22:20:05] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
-[22:20:05] Looking for 'prokka-genbank_to_fasta_db' - found /prokka-1.14.6/bin/prokka-genbank_to_fasta_db
-[22:20:05] Looking for 'sed' - found /bin/sed
-[22:20:05] Looking for 'tbl2asn' - found /usr/bin/tbl2asn
-[22:20:06] Determined tbl2asn version is 025008 from 'tbl2asn 25.8   arguments:'
-[22:20:06] Using genetic code table 11.
-[22:20:06] Loading and checking input file: scaffolds.fasta
-[22:20:06] Wrote 28 contigs totalling 41468 bp.
-[22:20:06] Predicting tRNAs and tmRNAs
-[22:20:06] Running: aragorn -l -gc11  -w prokka_output\/sample3\/scaffolds_annotation\.fna
-[22:20:06] Found 0 tRNAs
-[22:20:06] Predicting Ribosomal RNAs
-[22:20:06] Running Barrnap with 4 threads
-[22:20:06] Found 0 rRNAs
-[22:20:06] Skipping ncRNA search, enable with --rfam if desired.
-[22:20:06] Total of 0 tRNA + rRNA features
-[22:20:06] Searching for CRISPR repeats
-[22:20:07] Found 0 CRISPRs
-[22:20:07] Predicting coding sequences
-[22:20:07] Contigs total 41468 bp, so using meta mode
-[22:20:07] Running: prodigal -i prokka_output\/sample3\/scaffolds_annotation\.fna -c -m -g 11 -p meta -f sco -q
-[22:20:07] Found 10 CDS
-[22:20:07] Connecting features back to sequences
-[22:20:07] Not using genus-specific database. Try --usegenus to enable it.
-[22:20:07] Annotating CDS, please be patient.
-[22:20:07] Will use 4 CPUs for similarity searching.
-[22:20:07] There are still 10 unannotated CDS left (started with 10)
-[22:20:07] Will use blast to search against /prokka-1.14.6/db/kingdom/Bacteria/IS with 4 CPUs
-[22:20:07] Running: cat prokka_output\/sample3\/scaffolds_annotation\.IS\.tmp\.6\.faa | parallel --gnu --plain -j 4 --block 1200 --recstart '>' --pipe blastp -query - -db /prokka-1.14.6/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokka_output\/sample3\/scaffolds_annotation\.IS\.tmp\.6\.blast 2> /dev/null
-[22:20:10] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.IS.tmp.6.faa
-[22:20:10] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.IS.tmp.6.blast
-[22:20:10] There are still 10 unannotated CDS left (started with 10)
-[22:20:10] Will use blast to search against /prokka-1.14.6/db/kingdom/Bacteria/AMR with 4 CPUs
-[22:20:10] Running: cat prokka_output\/sample3\/scaffolds_annotation\.AMR\.tmp\.6\.faa | parallel --gnu --plain -j 4 --block 1200 --recstart '>' --pipe blastp -query - -db /prokka-1.14.6/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokka_output\/sample3\/scaffolds_annotation\.AMR\.tmp\.6\.blast 2> /dev/null
-[22:20:12] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.AMR.tmp.6.faa
-[22:20:12] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.AMR.tmp.6.blast
-[22:20:12] There are still 10 unannotated CDS left (started with 10)
-[22:20:12] Will use blast to search against /prokka-1.14.6/db/kingdom/Bacteria/sprot with 4 CPUs
-[22:20:12] Running: cat prokka_output\/sample3\/scaffolds_annotation\.sprot\.tmp\.6\.faa | parallel --gnu --plain -j 4 --block 1200 --recstart '>' --pipe blastp -query - -db /prokka-1.14.6/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokka_output\/sample3\/scaffolds_annotation\.sprot\.tmp\.6\.blast 2> /dev/null
-[22:20:18] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.sprot.tmp.6.faa
-[22:20:18] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.sprot.tmp.6.blast
-[22:20:18] There are still 10 unannotated CDS left (started with 10)
-[22:20:18] Will use hmmer3 to search against /prokka-1.14.6/db/hmm/HAMAP.hmm with 4 CPUs
-[22:20:18] Running: cat prokka_output\/sample3\/scaffolds_annotation\.HAMAP\.hmm\.tmp\.6\.faa | parallel --gnu --plain -j 4 --block 1200 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /prokka-1.14.6/db/hmm/HAMAP.hmm /dev/stdin > prokka_output\/sample3\/scaffolds_annotation\.HAMAP\.hmm\.tmp\.6\.hmmer3 2> /dev/null
-[22:20:20] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.HAMAP.hmm.tmp.6.faa
-[22:20:20] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.HAMAP.hmm.tmp.6.hmmer3
-[22:20:20] Labelling remaining 9 proteins as 'hypothetical protein'
-[22:20:20] Found 1 unique /gene codes.
-[22:20:20] Fixed 0 colliding /gene names.
-[22:20:20] Adding /locus_tag identifiers
-[22:20:20] Assigned 10 locus_tags to CDS and RNA features.
-[22:20:20] Writing outputs to prokka_output/sample3/
-[22:20:20] Generating annotation statistics file
-[22:20:20] Generating Genbank and Sequin files
-[22:20:20] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z prokka_output\/sample3\/scaffolds_annotation\.err -i prokka_output\/sample3\/scaffolds_annotation\.fsa 2> /dev/null
-[22:20:20] Deleting unwanted file: prokka_output/sample3/errorsummary.val
-[22:20:20] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.dr
-[22:20:20] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.fixedproducts
-[22:20:20] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.ecn
-[22:20:20] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.val
-[22:20:21] Repairing broken .GBK output that tbl2asn produces...
-[22:20:21] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < prokka_output\/sample3\/scaffolds_annotation\.gbf > prokka_output\/sample3\/scaffolds_annotation\.gbk
-[22:20:21] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.gbf
-[22:20:21] Output files:
-[22:20:21] prokka_output/sample3/scaffolds_annotation.err
-[22:20:21] prokka_output/sample3/scaffolds_annotation.faa
-[22:20:21] prokka_output/sample3/scaffolds_annotation.ffn
-[22:20:21] prokka_output/sample3/scaffolds_annotation.fna
-[22:20:21] prokka_output/sample3/scaffolds_annotation.fsa
-[22:20:21] prokka_output/sample3/scaffolds_annotation.gbk
-[22:20:21] prokka_output/sample3/scaffolds_annotation.gff
-[22:20:21] prokka_output/sample3/scaffolds_annotation.log
-[22:20:21] prokka_output/sample3/scaffolds_annotation.sqn
-[22:20:21] prokka_output/sample3/scaffolds_annotation.tbl
-[22:20:21] prokka_output/sample3/scaffolds_annotation.tsv
-[22:20:21] prokka_output/sample3/scaffolds_annotation.txt
-[22:20:21] Annotation finished successfully.
-[22:20:21] Walltime used: 0.28 minutes
-[22:20:21] If you use this result please cite the Prokka paper:
-[22:20:21] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
-[22:20:21] Type 'prokka --citation' for more details.
-[22:20:21] Share and enjoy!
+[10:56:40] This is prokka 1.14.6
+[10:56:40] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[10:56:40] Homepage is https://github.com/tseemann/prokka
+[10:56:40] Local time is Thu Nov 28 10:56:40 2024
+[10:56:40] You are not telling me who you are!
+[10:56:40] Operating system is linux
+[10:56:40] You have BioPerl 1.007002
+[10:56:40] System has 4 cores.
+[10:56:40] Option --cpu asked for 8 cores, but system only has 4
+[10:56:40] Will use maximum of 4 cores.
+[10:56:40] Annotating as >>> Bacteria <<<
+[10:56:40] Generating locus_tag from 'scaffolds.fasta' contents.
+[10:56:40] Setting --locustag MJHABPPO from MD5 631ab998fb9db0a2e8b63db15e78faa7
+[10:56:40] Creating new output folder: prokka_output/sample3
+[10:56:40] Running: mkdir -p prokka_output\/sample3
+[10:56:40] Using filename prefix: scaffolds_annotation.XXX
+[10:56:40] Setting HMMER_NCPU=1
+[10:56:40] Writing log to: prokka_output/sample3/scaffolds_annotation.log
+[10:56:40] Command: /prokka-1.14.6/bin/prokka --outdir prokka_output/sample3 --prefix scaffolds_annotation --force scaffolds.fasta
+[10:56:40] Appending to PATH: /prokka-1.14.6/bin/../binaries/linux
+[10:56:40] Appending to PATH: /prokka-1.14.6/bin/../binaries/linux/../common
+[10:56:40] Appending to PATH: /prokka-1.14.6/bin
+[10:56:40] Looking for 'aragorn' - found /prokka-1.14.6/binaries/linux/aragorn
+[10:56:40] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[10:56:40] Looking for 'barrnap' - found /barrnap-0.9/bin/barrnap
+[10:56:40] Determined barrnap version is 000009 from 'barrnap 0.9'
+[10:56:40] Looking for 'blastp' - found /ncbi-blast-2.9.0+/bin/blastp
+[10:56:40] Determined blastp version is 002009 from 'blastp: 2.9.0+'
+[10:56:40] Looking for 'cmpress' - found /prokka-1.14.6/binaries/linux/cmpress
+[10:56:40] Determined cmpress version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[10:56:40] Looking for 'cmscan' - found /prokka-1.14.6/binaries/linux/cmscan
+[10:56:40] Determined cmscan version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[10:56:40] Looking for 'egrep' - found /bin/egrep
+[10:56:40] Looking for 'find' - found /usr/bin/find
+[10:56:40] Looking for 'grep' - found /bin/grep
+[10:56:40] Looking for 'hmmpress' - found /usr/bin/hmmpress
+[10:56:40] Determined hmmpress version is 003001 from '# HMMER 3.1b2 (February 2015); http://hmmer.org/'
+[10:56:40] Looking for 'hmmscan' - found /usr/bin/hmmscan
+[10:56:40] Determined hmmscan version is 003001 from '# HMMER 3.1b2 (February 2015); http://hmmer.org/'
+[10:56:40] Looking for 'java' - found /usr/bin/java
+[10:56:40] Looking for 'makeblastdb' - found /ncbi-blast-2.9.0+/bin/makeblastdb
+[10:56:40] Determined makeblastdb version is 002009 from 'makeblastdb: 2.9.0+'
+[10:56:40] Looking for 'minced' - found /prokka-1.14.6/binaries/common/minced
+[10:56:41] Determined minced version is 002000 from 'minced 0.2.0'
+[10:56:41] Looking for 'parallel' - found /prokka-1.14.6/binaries/common/parallel
+[10:56:41] Determined parallel version is 20150122 from 'GNU parallel 20150122'
+[10:56:41] Looking for 'prodigal' - found /prokka-1.14.6/binaries/linux/prodigal
+[10:56:41] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[10:56:41] Looking for 'prokka-genbank_to_fasta_db' - found /prokka-1.14.6/bin/prokka-genbank_to_fasta_db
+[10:56:41] Looking for 'sed' - found /bin/sed
+[10:56:41] Looking for 'tbl2asn' - found /usr/bin/tbl2asn
+[10:56:41] Determined tbl2asn version is 025008 from 'tbl2asn 25.8   arguments:'
+[10:56:41] Using genetic code table 11.
+[10:56:41] Loading and checking input file: scaffolds.fasta
+[10:56:42] Wrote 28 contigs totalling 41468 bp.
+[10:56:42] Predicting tRNAs and tmRNAs
+[10:56:42] Running: aragorn -l -gc11  -w prokka_output\/sample3\/scaffolds_annotation\.fna
+[10:56:42] Found 0 tRNAs
+[10:56:42] Predicting Ribosomal RNAs
+[10:56:42] Running Barrnap with 4 threads
+[10:56:42] Found 0 rRNAs
+[10:56:42] Skipping ncRNA search, enable with --rfam if desired.
+[10:56:42] Total of 0 tRNA + rRNA features
+[10:56:42] Searching for CRISPR repeats
+[10:56:43] Found 0 CRISPRs
+[10:56:43] Predicting coding sequences
+[10:56:43] Contigs total 41468 bp, so using meta mode
+[10:56:43] Running: prodigal -i prokka_output\/sample3\/scaffolds_annotation\.fna -c -m -g 11 -p meta -f sco -q
+[10:56:43] Found 10 CDS
+[10:56:43] Connecting features back to sequences
+[10:56:43] Not using genus-specific database. Try --usegenus to enable it.
+[10:56:43] Annotating CDS, please be patient.
+[10:56:43] Will use 4 CPUs for similarity searching.
+[10:56:43] There are still 10 unannotated CDS left (started with 10)
+[10:56:43] Will use blast to search against /prokka-1.14.6/db/kingdom/Bacteria/IS with 4 CPUs
+[10:56:43] Running: cat prokka_output\/sample3\/scaffolds_annotation\.IS\.tmp\.7\.faa | parallel --gnu --plain -j 4 --block 1200 --recstart '>' --pipe blastp -query - -db /prokka-1.14.6/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokka_output\/sample3\/scaffolds_annotation\.IS\.tmp\.7\.blast 2> /dev/null
+[10:56:45] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.IS.tmp.7.faa
+[10:56:45] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.IS.tmp.7.blast
+[10:56:45] There are still 10 unannotated CDS left (started with 10)
+[10:56:45] Will use blast to search against /prokka-1.14.6/db/kingdom/Bacteria/AMR with 4 CPUs
+[10:56:45] Running: cat prokka_output\/sample3\/scaffolds_annotation\.AMR\.tmp\.7\.faa | parallel --gnu --plain -j 4 --block 1200 --recstart '>' --pipe blastp -query - -db /prokka-1.14.6/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokka_output\/sample3\/scaffolds_annotation\.AMR\.tmp\.7\.blast 2> /dev/null
+[10:56:46] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.AMR.tmp.7.faa
+[10:56:46] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.AMR.tmp.7.blast
+[10:56:46] There are still 10 unannotated CDS left (started with 10)
+[10:56:46] Will use blast to search against /prokka-1.14.6/db/kingdom/Bacteria/sprot with 4 CPUs
+[10:56:46] Running: cat prokka_output\/sample3\/scaffolds_annotation\.sprot\.tmp\.7\.faa | parallel --gnu --plain -j 4 --block 1200 --recstart '>' --pipe blastp -query - -db /prokka-1.14.6/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokka_output\/sample3\/scaffolds_annotation\.sprot\.tmp\.7\.blast 2> /dev/null
+[10:56:50] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.sprot.tmp.7.faa
+[10:56:50] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.sprot.tmp.7.blast
+[10:56:50] There are still 10 unannotated CDS left (started with 10)
+[10:56:50] Will use hmmer3 to search against /prokka-1.14.6/db/hmm/HAMAP.hmm with 4 CPUs
+[10:56:50] Running: cat prokka_output\/sample3\/scaffolds_annotation\.HAMAP\.hmm\.tmp\.7\.faa | parallel --gnu --plain -j 4 --block 1200 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /prokka-1.14.6/db/hmm/HAMAP.hmm /dev/stdin > prokka_output\/sample3\/scaffolds_annotation\.HAMAP\.hmm\.tmp\.7\.hmmer3 2> /dev/null
+[10:56:52] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.HAMAP.hmm.tmp.7.faa
+[10:56:52] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.HAMAP.hmm.tmp.7.hmmer3
+[10:56:52] Labelling remaining 9 proteins as 'hypothetical protein'
+[10:56:52] Found 1 unique /gene codes.
+[10:56:52] Fixed 0 colliding /gene names.
+[10:56:52] Adding /locus_tag identifiers
+[10:56:52] Assigned 10 locus_tags to CDS and RNA features.
+[10:56:52] Writing outputs to prokka_output/sample3/
+[10:56:52] Generating annotation statistics file
+[10:56:52] Generating Genbank and Sequin files
+[10:56:52] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z prokka_output\/sample3\/scaffolds_annotation\.err -i prokka_output\/sample3\/scaffolds_annotation\.fsa 2> /dev/null
+[10:56:53] Deleting unwanted file: prokka_output/sample3/errorsummary.val
+[10:56:53] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.dr
+[10:56:53] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.fixedproducts
+[10:56:53] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.ecn
+[10:56:53] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.val
+[10:56:53] Repairing broken .GBK output that tbl2asn produces...
+[10:56:53] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < prokka_output\/sample3\/scaffolds_annotation\.gbf > prokka_output\/sample3\/scaffolds_annotation\.gbk
+[10:56:53] Deleting unwanted file: prokka_output/sample3/scaffolds_annotation.gbf
+[10:56:53] Output files:
+[10:56:53] prokka_output/sample3/scaffolds_annotation.err
+[10:56:53] prokka_output/sample3/scaffolds_annotation.faa
+[10:56:53] prokka_output/sample3/scaffolds_annotation.ffn
+[10:56:53] prokka_output/sample3/scaffolds_annotation.fna
+[10:56:53] prokka_output/sample3/scaffolds_annotation.fsa
+[10:56:53] prokka_output/sample3/scaffolds_annotation.gbk
+[10:56:53] prokka_output/sample3/scaffolds_annotation.gff
+[10:56:53] prokka_output/sample3/scaffolds_annotation.log
+[10:56:53] prokka_output/sample3/scaffolds_annotation.sqn
+[10:56:53] prokka_output/sample3/scaffolds_annotation.tbl
+[10:56:53] prokka_output/sample3/scaffolds_annotation.tsv
+[10:56:53] prokka_output/sample3/scaffolds_annotation.txt
+[10:56:53] Annotation finished successfully.
+[10:56:53] Walltime used: 0.22 minutes
+[10:56:53] If you use this result please cite the Prokka paper:
+[10:56:53] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[10:56:53] Type 'prokka --citation' for more details.
+[10:56:53] Share and enjoy!

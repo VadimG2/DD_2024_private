@@ -38,7 +38,7 @@ Seq-entry ::= set {
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -48,7 +48,7 @@ Seq-entry ::= set {
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       seq-set {
         seq {
           id {
@@ -1193,7 +1193,7 @@ PKKDKKKKADETQALPQRQKKQQTVTLLPAADLDDFSKQLQQSMSSADSTQA" } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -1203,7 +1203,7 @@ PKKDKKKKADETQALPQRQKKQQTVTLLPAADLDDFSKQLQQSMSSADSTQA" } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -1262,7 +1262,7 @@ GAGGAACCTGGACATCTGCCCCCATCTGGCAGTAACC" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -1272,7 +1272,7 @@ GAGGAACCTGGACATCTGCCCCCATCTGGCAGTAACC" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -1328,7 +1328,7 @@ AGGGTCTCACTC" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -1338,7 +1338,7 @@ AGGGTCTCACTC" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -1392,7 +1392,7 @@ AACAAGAGAGAAAAGAGT" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -1402,7 +1402,7 @@ AACAAGAGAGAAAAGAGT" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -1456,7 +1456,7 @@ TGCTAGGTTCTCATCC" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -1466,7 +1466,7 @@ TGCTAGGTTCTCATCC" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -1520,7 +1520,7 @@ TGGAAGGCTATAG" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -1530,7 +1530,7 @@ TGGAAGGCTATAG" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -1584,7 +1584,7 @@ ATCCTGAGAC" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -1594,7 +1594,7 @@ ATCCTGAGAC" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -1648,7 +1648,7 @@ GTTCTC" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -1658,7 +1658,7 @@ GTTCTC" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -1711,7 +1711,7 @@ GGGGTCGTCGGAGCGTTGAAAATGAAACTATGAGCGGTTGCTCAGGTGAGAGAGAGATGAATGTGACAAG" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -1721,7 +1721,7 @@ GGGGTCGTCGGAGCGTTGAAAATGAAACTATGAGCGGTTGCTCAGGTGAGAGAGAGATGAATGTGACAAG" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -1774,7 +1774,7 @@ GCTATCTAGATGGAAAGATAGGCATAAAAATAGCTATTTAGGATATATGCCAAATAATCATGGTTATCT" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -1784,7 +1784,7 @@ GCTATCTAGATGGAAAGATAGGCATAAAAATAGCTATTTAGGATATATGCCAAATAATCATGGTTATCT" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -1837,7 +1837,7 @@ ACTTTCAGTAAGTATTAGCTCTACACAAAATAATATGTTTACTATAGATAATAT" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -1847,7 +1847,7 @@ ACTTTCAGTAAGTATTAGCTCTACACAAAATAATATGTTTACTATAGATAATAT" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -1900,7 +1900,7 @@ ATTCATGAAACAAAATGTGTTTATACATTTATGTCTTTATTGCAATTATGGTTG" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -1910,7 +1910,7 @@ ATTCATGAAACAAAATGTGTTTATACATTTATGTCTTTATTGCAATTATGGTTG" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -1963,7 +1963,7 @@ CAGCCATCAGCTGGGGCAAGCCCCTGGCTCTACAGTTTGGAGGAACAGGAGGC" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -1973,7 +1973,7 @@ CAGCCATCAGCTGGGGCAAGCCCCTGGCTCTACAGTTTGGAGGAACAGGAGGC" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -2026,7 +2026,7 @@ GTCATCTGCAAACAGAGACAATTTGACTTCTTCTCCTCCTATTTGAATACAC" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -2036,7 +2036,7 @@ GTCATCTGCAAACAGAGACAATTTGACTTCTTCTCCTCCTATTTGAATACAC" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -2089,7 +2089,7 @@ CAGCTACTCAGGAGGCTGAGGCAGGAGAATCACTTGAGCCCGGGAGGCGG" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -2099,7 +2099,7 @@ CAGCTACTCAGGAGGCTGAGGCAGGAGAATCACTTGAGCCCGGGAGGCGG" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -2152,7 +2152,7 @@ CACGCACAACCATGCCTGGCTATTTTTTCTATTTTTAGTAGAGACA" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -2162,7 +2162,7 @@ CACGCACAACCATGCCTGGCTATTTTTTCTATTTTTAGTAGAGACA" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -2215,7 +2215,7 @@ CTGAGTTGATGTCCAGATGAAATTTGCATGGAGAGTGTCCTCATG" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -2225,7 +2225,7 @@ CTGAGTTGATGTCCAGATGAAATTTGCATGGAGAGTGTCCTCATG" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -2278,7 +2278,7 @@ CTAATAGTGTTTTTAACATTTGTCAAGCTGTCACGGCCAATGTT" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -2288,7 +2288,7 @@ CTAATAGTGTTTTTAACATTTGTCAAGCTGTCACGGCCAATGTT" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -2341,7 +2341,7 @@ CAAGCAGACGCTACCAAAGAAAGAAACTAAAAC" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -2351,7 +2351,7 @@ CAAGCAGACGCTACCAAAGAAAGAAACTAAAAC" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -2400,7 +2400,7 @@ CAACTGTTCCCAAGAAAGCACTACAAGAAAGC" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -2410,7 +2410,7 @@ CAACTGTTCCCAAGAAAGCACTACAAGAAAGC" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       seq-set {
         seq {
           id {
@@ -2540,7 +2540,7 @@ DYILVLLYVYLDERQ" } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -2550,7 +2550,7 @@ DYILVLLYVYLDERQ" } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -2603,7 +2603,7 @@ ACCCAGATAAACACTCTTTTATTTACAGAG" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -2613,7 +2613,7 @@ ACCCAGATAAACACTCTTTTATTTACAGAG" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -2666,7 +2666,7 @@ ACAGGCGTGAGCCACCACGCCCGGAC" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -2676,7 +2676,7 @@ ACAGGCGTGAGCCACCACGCCCGGAC" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -2729,7 +2729,7 @@ TCTCCTCCCGCATGCGTGTGCGTGG" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -2739,7 +2739,7 @@ TCTCCTCCCGCATGCGTGTGCGTGG" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -2792,7 +2792,7 @@ GGATTGGTCTCAATGTCCCAGCT" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -2802,7 +2802,7 @@ GGATTGGTCTCAATGTCCCAGCT" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -2855,7 +2855,7 @@ GTCTGGGG" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -2865,7 +2865,7 @@ GTCTGGGG" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,
@@ -2914,7 +2914,7 @@ GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG" } } ,
               label
                 str "day" ,
               data
-                int 27 } ,
+                int 28 } ,
             {
               label
                 str "year" ,
@@ -2924,7 +2924,7 @@ GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG" } } ,
           std {
             year 2024 ,
             month 11 ,
-            day 27 } } ,
+            day 28 } } ,
       inst {
         repr raw ,
         mol dna ,

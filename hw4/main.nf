@@ -44,7 +44,7 @@ process fastqc {
     output:
     path("fastqc_output/*")
 
-    publishDir './test_output/fastqc', mode: 'symlink'
+    publishDir './test_output/fastqc', mode: 'copy'
 
     container 'staphb/fastqc:latest'
 
